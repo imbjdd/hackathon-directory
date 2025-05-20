@@ -1,11 +1,3 @@
-import { 
-  Table, 
-  TableBody, 
-  TableCell, 
-  TableHead, 
-  TableHeader, 
-  TableRow 
-} from "@/components/ui/table";
 import { Inter } from "next/font/google";
 import Image from "next/image";
 import fs from 'fs';
@@ -16,13 +8,25 @@ import FilteredHackathons from './components/FilteredHackathons';
 // Définition de la police
 const inter = Inter({ subsets: ["latin"] });
 
+// Define the Hackathon type
+type Hackathon = {
+  id: string;
+  name: string;
+  date: string;
+  location: string;
+  status: string;
+  category: string;
+  prize: string;
+  website: string;
+};
+
 // Fonction pour charger les données YAML
-export async function getData() {
+async function getData(): Promise<Hackathon[]> {
   const filePath = path.join(process.cwd(), 'data', 'hackathons.yml');
   const fileContents = fs.readFileSync(filePath, 'utf8');
   
   try {
-    const data = yaml.load(fileContents);
+    const data = yaml.load(fileContents) as Hackathon[];
     return data;
   } catch (e) {
     console.error(e);
