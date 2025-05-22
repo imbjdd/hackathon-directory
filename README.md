@@ -1,36 +1,106 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Hackathon Directory
 
-## Getting Started
+A comprehensive directory of hackathons from around the world. Built with Next.js, TypeScript, and Tailwind CSS.
 
-First, run the development server:
+![Hackathon Directory Screenshot](./public/bg.webp)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## 📋 Features
+
+- Browse a curated list of hackathons
+- Filter by upcoming and past events
+- View hackathon details including date, location, prize, and more
+- Responsive design for all devices
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js (v18 or newer)
+- npm, yarn, or pnpm
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/imbjdd/hackathon-directory.git
+   cd hackathon-directory
+   ```
+
+2. Install dependencies:
+   ```bash
+   npm install
+   # or
+   yarn install
+   # or
+   pnpm install
+   ```
+
+3. Run the development server:
+   ```bash
+   npm run dev
+   # or
+   yarn dev
+   # or
+   pnpm dev
+   ```
+
+4. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+## 📝 How to Add a Hackathon
+
+The hackathon data is stored in a YAML file located at `data/hackathons.yml`. To add a new hackathon:
+
+1. Open the `data/hackathons.yml` file
+2. Add a new entry following this format:
+
+```yaml
+- id: [unique-identifier]
+  name: [Hackathon Name]
+  date: [Date or Date Range]
+  location: [Location or "Online"]
+  status: [Upcoming or Completed]
+  category: [Blockchain, AI, General, etc.]
+  prize: [Prize amount or ""]
+  website: [Official website URL]
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Example:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```yaml
+- id: devfest2025
+  name: DevFest 2025
+  date: October 15-17, 2025
+  location: San Francisco, USA
+  status: Upcoming
+  category: General
+  prize: 50k$
+  website: https://example.com/devfest2025
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Field Guidelines:
 
-## Learn More
+- **id**: A unique identifier for the hackathon (use lowercase, no spaces)
+- **name**: The official name of the hackathon
+- **date**: Use format "Month Day-Day, Year" or "Month Day, Year"
+- **location**: City, Country or "Online"
+- **status**: Must be either "Upcoming" or "Completed"
+- **category**: Main focus of the hackathon (e.g., Blockchain, AI, Web3, General)
+- **prize**: Total prize pool (e.g., "50k$") or leave empty quotes "" if unknown
+- **website**: Full URL to the official hackathon website
 
-To learn more about Next.js, take a look at the following resources:
+After adding your entry, save the file. The changes will be automatically reflected when the site is rebuilt.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🛠️ Technology Stack
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- [Next.js](https://nextjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [js-yaml](https://github.com/nodeca/js-yaml) for YAML parsing
 
-## Deploy on Vercel
+## 📄 License
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+This project is open source and available under the MIT License.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🙏 Acknowledgements
+
+Created with ❤️ by [Salim](https://www.linkedin.com/in/salim-boujaddi/) in Paris 🥖
