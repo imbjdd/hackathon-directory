@@ -2,7 +2,6 @@
   name: ETHDublin 2025
   date: May 23-25, 2025
   location: Dublin, Ireland
-  status: Upcoming
   category: Blockchain
   prize: ""
   website: https://www.ethdublin.io/
@@ -11,7 +10,6 @@
   name: World's Largest Hackathon Bolt
   date: May 30 - June 30, 2025
   location: Online
-  status: Upcoming
   category: General
   prize: 1000k$
   website: https://worldslargesthackathon.devpost.com/
@@ -20,7 +18,6 @@
   name: Chromion ChainLink
   date: May 30 - June 29, 2025
   location: Online
-  status: Upcoming
   category: Blockchain
   prize: 150k$
   website: https://chain.link/hackathon
@@ -29,7 +26,6 @@
   name: ETH Belgrade
   date: June 3-5, 2025
   location: Belgrade, Serbia
-  status: Upcoming
   category: Blockchain
   prize: 30k$
   website: https://ethbelgrade.rs/
@@ -38,7 +34,6 @@
   name: OpenAI Viva Le Hack
   date: June 10, 2025
   location: Paris, France
-  status: Upcoming
   category: AI
   prize: 25k$
   website: https://event.openai.com/openaivivalehack
@@ -47,7 +42,6 @@
   name: ETHKyiv
   date: June 13-15, 2025
   location: Kyiv, Ukraine
-  status: Upcoming
   category: Blockchain
   prize: 50k$
   website: https://ethkyiv.com/
@@ -56,7 +50,6 @@
   name: Algotrade 2025
   date: June 14-16, 2025
   location: Zagreb, Croatia
-  status: Upcoming
   category: Trading
   prize: 10k$
   website: https://algotrade.xfer.hr/
@@ -65,7 +58,6 @@
   name: Hack the Law
   date: June 20-22, 2025
   location: Cambridge, UK
-  status: Upcoming
   category: Legal Tech
   prize: 24k$
   website: https://hackthelaw-cambridge.com/
@@ -74,7 +66,6 @@
   name: ETHGlobal Prague 2025
   date: June 30 - July 1, 2025
   location: Prague, Czech Republic
-  status: Upcoming
   category: Blockchain
   prize: 175k$
   website: https://ethglobal.com/events/prague
@@ -83,7 +74,6 @@
   name: ETHGlobal Cannes
   date: July 4-6, 2025
   location: Cannes, France
-  status: Upcoming
   category: Blockchain
   prize: 300k$
   website: https://ethglobal.com/events/cannes
@@ -92,7 +82,6 @@
   name: Raise Summit Hackathon
   date: July 4-7, 2025
   location: Online
-  status: Upcoming
   category: General
   prize: 150k$
   website: https://lablab.ai/event/raise-your-hack
@@ -101,7 +90,6 @@
   name: United Hacks V5
   date: July 11-13, 2025
   location: Online
-  status: Upcoming
   category: General
   prize: 102k$
   website: https://unitedhacksv5.devpost.com/
@@ -110,7 +98,6 @@
   name: NapulETH
   date: July 14-15, 2025
   location: Napul, Italy
-  status: Upcoming
   category: Blockchain
   prize: ""
   website: https://www.napuleth.org/
@@ -119,7 +106,6 @@
   name: Chiliz Hacking Paris
   date: August 11-13, 2025
   location: Paris, France
-  status: Upcoming
   category: Blockchain
   prize: 150k$
   website: https://www.chiliz.com/hacking-paris/
@@ -128,7 +114,6 @@
   name: ETHGlobal New York
   date: August 15-17, 2025
   location: New York, USA
-  status: Upcoming
   category: Blockchain
   prize: 225k$
   website: https://ethglobal.com/events/newyork2025
@@ -137,7 +122,6 @@
   name: ETHGlobal New Delhi
   date: August 26-28, 2025
   location: New Delhi, India
-  status: Upcoming
   category: Blockchain
   prize: 175k$
   website: https://ethglobal.com/events/newdelhi
@@ -146,7 +130,6 @@
   name: ETHAccra
   date: September 3-6, 2025
   location: Accra, Ghana
-  status: Upcoming
   category: Blockchain
   prize: 5k$
   website: https://ethaccra.xyz/
@@ -155,7 +138,6 @@
   name: ETHTokyo
   date: September 12-15, 2025
   location: Tokyo, Japan
-  status: Upcoming
   category: Blockchain
   prize: 9k$
   website: https://ethtokyo.org/
@@ -164,7 +146,6 @@
   name: ETHSofia 2025
   date: September 23-25, 2025
   location: Sofia, Bulgaria
-  status: Upcoming
   category: Blockchain
   prize: 30k$
   website: https://www.ethsofia.com/
@@ -173,7 +154,6 @@
   name: ETHLatam Hackathon
   date: November 6-7, 2025
   location: Sao Paulo, Brazil
-  status: Upcoming
   category: Blockchain
   prize: ""
   website: https://ethlatam.org/en
@@ -182,7 +162,6 @@
   name: ETHGlobal Buenos Aires
   date: November 21-23, 2025
   location: Buenos Aires, Argentina
-  status: Upcoming
   category: Blockchain
   prize: 400k$
   website: https://ethglobal.com/events/buenosaires
@@ -191,7 +170,6 @@
   name: ETHOnline
   date: October 10-31, 2025
   location: Online
-  status: Upcoming
   category: Blockchain
   prize: 75k$
   website: https://ethglobal.com/events/ethonline2025
@@ -200,7 +178,14 @@
   name: AI for Longevity
   date: May 30-June 1, 2025
   location: London, UK
-  status: Upcoming
   category: AI
   prize: 2k$
   website: https://lu.ma/0cqssciw
+
+- id: avalanchesummitlondonhackathon
+  name: Avalanche Summit London Hackathon
+  date: May 23-25, 2025
+  location: London, UK
+  category: Blockchain
+  prize: 50k$
+  website: https://lu.ma/avalanchesummitlondonhackathon

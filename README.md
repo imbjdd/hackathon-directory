@@ -58,7 +58,6 @@ The hackathon data is stored in a YAML file located at `data/hackathons.yml`. To
   name: [Hackathon Name]
   date: [Date or Date Range]
   location: [Location or "Online"]
-  status: [Upcoming or Completed]
   category: [Blockchain, AI, General, etc.]
   prize: [Prize amount or ""]
   website: [Official website URL]
@@ -71,7 +70,6 @@ The hackathon data is stored in a YAML file located at `data/hackathons.yml`. To
   name: DevFest 2025
   date: October 15-17, 2025
   location: San Francisco, USA
-  status: Upcoming
   category: General
   prize: 50k$
   website: https://example.com/devfest2025
@@ -83,7 +81,6 @@ The hackathon data is stored in a YAML file located at `data/hackathons.yml`. To
 - **name**: The official name of the hackathon
 - **date**: Use format "Month Day-Day, Year" or "Month Day, Year"
 - **location**: City, Country or "Online"
-- **status**: Must be either "Upcoming" or "Completed"
 - **category**: Main focus of the hackathon (e.g., Blockchain, AI, Web3, General)
 - **prize**: Total prize pool (e.g., "50k$") or leave empty quotes "" if unknown
 - **website**: Full URL to the official hackathon website
