@@ -27,7 +27,37 @@ async function getData(): Promise<Hackathon[]> {
   
   try {
     const data = yaml.load(fileContents) as Hackathon[];
-    return data;
+    
+    // Function to extract the start date from a date string
+    const getStartDate = (dateStr: string): Date => {
+      // Handle different date formats
+      // Format examples: "May 23-25, 2025", "May 30 - June 30, 2025", "July 4-7, 2025"
+      const months: Record<string, number> = {
+        'January': 0, 'February': 1, 'March': 2, 'April': 3, 'May': 4, 'June': 5,
+        'July': 6, 'August': 7, 'September': 8, 'October': 9, 'November': 10, 'December': 11
+      };
+      
+      // Extract the first month and day
+      const parts = dateStr.split(/[-–]/)[0].trim().split(' ');
+      const month = months[parts[0]];
+      const day = parseInt(parts[1], 10);
+      let year = 2025; // Default year
+      
+      // Try to extract year if present in the first part
+      const yearMatch = parts.join(' ').match(/\b(20\d{2})\b/);
+      if (yearMatch) {
+        year = parseInt(yearMatch[1], 10);
+      }
+      
+      return new Date(year, month, day);
+    };
+    
+    // Sort hackathons by start date (ascending)
+    return data.sort((a, b) => {
+      const dateA = getStartDate(a.date);
+      const dateB = getStartDate(b.date);
+      return dateA.getTime() - dateB.getTime();
+    });
   } catch (e) {
     console.error(e);
     return [];
