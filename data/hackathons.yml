@@ -186,3 +186,21 @@
   category: Blockchain
   prize: 400k$
   website: https://ethglobal.com/events/buenosaires
+
+- id: ethonline2025
+  name: ETHOnline
+  date: October 10-31, 2025
+  location: Online
+  status: Upcoming
+  category: Blockchain
+  prize: 75k$
+  website: https://ethglobal.com/events/ethonline2025
+
+- id: aiforlongevity
+  name: AI for Longevity
+  date: May 30-June 1, 2025
+  location: London, UK
+  status: Upcoming
+  category: AI
+  prize: 2k$
+  website: https://lu.ma/0cqssciw
