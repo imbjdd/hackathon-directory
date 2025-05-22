@@ -103,7 +103,7 @@ export default async function Home() {
           <div className="mb-10">
             <h2 className="text-3xl font-medium mb-3">Browse events</h2>
             <p className="text-gray-500 max-w-2xl">
-              Discover hackathons from around the world and find opportunities to learn, build, and connect with other developers.
+              Discover <span className="font-bold">{hackathons.length}</span> hackathons from around the world and find opportunities to learn, build, and connect with other developers.
             </p>
           </div>
           
