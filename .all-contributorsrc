@@ -1,4 +1,21 @@
 {
   "projectName": "hackathon-directory",
-  "projectOwner": "imbjdd"
+  "projectOwner": "imbjdd",
+  "files": [
+    "README.md"
+  ],
+  "commitType": "docs",
+  "commitConvention": "angular",
+  "contributorsPerLine": 7,
+  "contributors": [
+    {
+      "login": "imbjdd",
+      "name": "Salim",
+      "avatar_url": "https://avatars.githubusercontent.com/u/56689216?v=4",
+      "profile": "https://bjdd.vercel.app/",
+      "contributions": [
+        "code"
+      ]
+    }
+  ]
 }

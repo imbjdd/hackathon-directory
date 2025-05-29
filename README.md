@@ -103,6 +103,13 @@ This project is open source and available under the MIT License.
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
+<table>
+  <tbody>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="https://bjdd.vercel.app/"><img src="https://avatars.githubusercontent.com/u/56689216?v=4?s=100" width="100px;" alt="Salim"/><br /><sub><b>Salim</b></sub></a><br /><a href="#code-imbjdd" title="Code">💻</a></td>
+    </tr>
+  </tbody>
+</table>
 
 <!-- markdownlint-restore -->
 <!-- prettier-ignore-end -->
