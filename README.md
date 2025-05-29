@@ -98,6 +98,13 @@ After adding your entry, save the file. The changes will be automatically reflec
 
 This project is open source and available under the MIT License.
 
-## 🙏 Acknowledgements
+## Contributors
 
-Created with ❤️ by [Salim](https://www.linkedin.com/in/salim-boujaddi/) in Paris 🥖
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
