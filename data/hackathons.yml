@@ -205,3 +205,19 @@
   category: AI
   prize: 9k$
   website: https://lablab.ai/event/code-craft-ai-x-dev-hackathon
+
+- id: huggingmcp2025
+  name: Gradio Agents & MCP Hackathon 2025 🚀
+  date: June 2-8, 2025
+  location: Online
+  category: AI
+  prize: 11k$
+  website: https://huggingface.co/Agents-MCP-Hackathon
+
+- id: agentshuganthunaite2025
+  name: Agents - Hugging Face, Anthropic & Unaite
+  date: June 15-15, 2025
+  location: Paris, France
+  category: AI
+  prize: 10k$
+  website: https://lu.ma/qpimrbx3?tk=UxT3mH
