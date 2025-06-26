@@ -1,10 +1,10 @@
 import { getData, Hackathon } from '../../page';
-import { ReactElement } from 'react';
 import Image from 'next/image';
 
-export default async function HackathonPage({ params }: { params: { hackathon: string } }): Promise<ReactElement> {
+export default async function HackathonPage({ params }: { params: Promise<{ hackathon: string }> }) {
+  const { hackathon: hackathonId } = await params;
   const data: Hackathon[] = await getData();
-  const hackathon = data.find((h: Hackathon) => h.id === params.hackathon) || null;
+  const hackathon = data.find((h: Hackathon) => h.id === hackathonId) || null;
 
   if (!hackathon) {
     return <div className={`min-h-screen bg-[#FAFAFA]`}>Hackathon not found</div>;
