@@ -21,7 +21,7 @@ type Hackathon = {
 };
 
 export default function FilteredHackathons({ hackathons }: { hackathons: Hackathon[] }) {
-  const [filter, setFilter] = useState('all');
+  const [filter, setFilter] = useState('upcoming');
   
   // Helper function to determine if a hackathon is upcoming based on its date
   const isUpcoming = (date: string): boolean => {
@@ -70,16 +70,6 @@ export default function FilteredHackathons({ hackathons }: { hackathons: Hackath
     <>
       {/* Filter tabs */}
       <div className="flex gap-2 mb-8">
-        <button 
-          onClick={() => setFilter('all')}
-          className={`px-4 py-2 text-sm rounded-full ${
-            filter === 'all' 
-              ? 'bg-black text-white' 
-              : 'bg-white border border-gray-200 text-gray-600 hover:border-gray-300'
-          } transition-colors`}
-        >
-          All events
-        </button>
         <button 
           onClick={() => setFilter('upcoming')}
           className={`px-4 py-2 text-sm rounded-full ${
