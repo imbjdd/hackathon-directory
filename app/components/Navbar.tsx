@@ -1,9 +1,8 @@
 import Link from 'next/link';
-import Image from 'next/image';
 
 export default function Navbar() {
   return (
-    <div>
+    <div className="bg-[#FAFAFA]">
       <div className="max-w-5xl mx-auto px-6 py-12">
       {/* Header */}
       <header className="flex items-center justify-between">
@@ -20,15 +19,6 @@ export default function Navbar() {
         </div>
       </header>
     </div>
-    <div className="relative w-full h-40 overflow-hidden">
-        <Image 
-          src="/bg.webp" 
-          alt="Hackathons Banner" 
-          fill 
-          style={{ objectFit: 'cover' }} 
-          className="brightness-[0.85]"
-        />
-      </div>
     </div>
   );
 } 
