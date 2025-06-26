@@ -9,6 +9,7 @@ import {
   TableHeader, 
   TableRow 
 } from "@/components/ui/table";
+import Link from "next/link";
 
 type Hackathon = {
   id: string;
@@ -118,14 +119,12 @@ export default function FilteredHackathons({ hackathons }: { hackathons: Hackath
                   className="border-b border-gray-100 hover:bg-gray-50 transition-colors"
                 >
                   <TableCell className="py-4 font-medium">
-                    <a 
-                      href={hackathon.website}
-                      target="_blank"
-                      rel="noopener noreferrer" 
+                    <Link 
+                      href={`/hackathon/${hackathon.id}`}
                       className="hover:underline"
                     >
                       {hackathon.name}
-                    </a>
+                    </Link>
                   </TableCell>
                   <TableCell className="py-4 text-gray-500">{hackathon.date}</TableCell>
                   <TableCell className="py-4 text-gray-500">{hackathon.location}</TableCell>

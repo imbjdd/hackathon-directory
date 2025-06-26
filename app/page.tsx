@@ -1,5 +1,4 @@
 import { Inter } from "next/font/google";
-import Image from "next/image";
 import fs from 'fs';
 import path from 'path';
 import yaml from 'js-yaml';
@@ -8,8 +7,7 @@ import FilteredHackathons from './components/FilteredHackathons';
 // Définition de la police
 const inter = Inter({ subsets: ["latin"] });
 
-// Define the Hackathon type
-type Hackathon = {
+export type Hackathon = {
   id: string;
   name: string;
   date: string;
@@ -21,7 +19,7 @@ type Hackathon = {
 };
 
 // Fonction pour charger les données YAML
-async function getData(): Promise<Hackathon[]> {
+export async function getData(): Promise<Hackathon[]> {
   const filePath = path.join(process.cwd(), 'data', 'hackathons.yml');
   const fileContents = fs.readFileSync(filePath, 'utf8');
   
@@ -70,33 +68,6 @@ export default async function Home() {
 
   return (
     <div className={`min-h-screen bg-[#FAFAFA] ${inter.className}`}>
-      <div className="max-w-5xl mx-auto px-6 py-12">
-        {/* Header */}
-        <header className="flex items-center justify-between">
-          <h1 className="text-2xl font-medium">Hackathons Directory</h1>
-          <div className="flex gap-6">
-            <iframe 
-              src="https://ghbtns.com/github-btn.html?user=imbjdd&repo=hackathon-directory&type=star&count=true&size=large" 
-              frameBorder="0" 
-              scrolling="0" 
-              width="170" 
-              height="30" 
-              title="GitHub"
-            />
-          </div>
-        </header>
-      </div>
-
-      <div className="relative w-full h-40 overflow-hidden">
-        <Image 
-          src="/bg.webp" 
-          alt="Hackathons Banner" 
-          fill 
-          style={{ objectFit: 'cover' }} 
-          className="brightness-[0.85]"
-        />
-      </div>
-
       <div className="max-w-5xl mx-auto px-6 py-12">       
         {/* Main content */}
         <main>
