@@ -1,6 +1,7 @@
 import { getData, Hackathon } from '../../page';
 import Image from 'next/image';
 import { Calendar } from "@/components/ui/calendar"
+import { PrizeScale } from '@/app/components/PrizeScale';
 
 // Utilitaire pour parser une string de range type 'July 4-6, 2025' en { from, to }
 function parseDateRange(dateStr: string): { from: Date, to: Date } | null {
@@ -44,11 +45,11 @@ export default async function HackathonPage({ params }: { params: Promise<{ hack
           </div>
         </div>
       </div>
-      <div className="w-full flex flex-col md:flex-row gap-4 max-w-5xl mx-auto space-y-3 px-6 pt-16 justify-between">
-        <div className='flex flex-col gap-4'>
+      <div className="w-full flex flex-col md:flex-row gap-4 md:gap-12 max-w-5xl mx-auto space-y-3 px-6 pt-16 justify-between">
+        <div className='flex grow flex-col gap-4'>
           <p className="text-lg"><strong>Location :</strong> {hackathon.location}</p>
-          <span className="px-2 py-1 text-sm w-fit font-semibold bg-pink-300 text-black border-2 border-black rounded-full">{hackathon.category}</span>
-          <p className="text-lg"><strong>Prize :</strong> {hackathon.prize}</p>
+          <span className="px-2 py-1 mb-6 text-sm w-fit font-semibold bg-pink-300 text-black border-2 border-black rounded-full">{hackathon.category}</span>
+          <PrizeScale prize={hackathon.prize} />
           
           <a href={hackathon.website}
           target="_blank" rel="noopener noreferrer" className="px-4 w-fit py-2 bg-black text-white rounded-full">
