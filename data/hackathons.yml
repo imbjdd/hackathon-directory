@@ -221,3 +221,11 @@
   category: AI
   prize: 10k$
   website: https://lu.ma/qpimrbx3?tk=UxT3mH
+
+- id: stockholm-hackathon
+  name: '🇸🇪 {Tech: Europe} Stockholm AI Hackathon'
+  date: September 13, 2023
+  location: Legora AI
+  prize: ""
+  category: AI
+  website: https://lu.ma/stockholm-hackathon
