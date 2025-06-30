@@ -229,3 +229,11 @@
   prize: ""
   category: AI
   website: https://lu.ma/stockholm-hackathon
+
+- id: amdaisprint2025paris
+  name: AMD AI Sprint
+  date: July 5-6, 2025
+  location: Paris, France
+  prize: 5k$
+  category: AI
+  website: https://lu.ma/fmvdjmur
