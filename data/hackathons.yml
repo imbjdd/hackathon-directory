@@ -237,3 +237,43 @@
   prize: 5k$
   category: AI
   website: https://lu.ma/fmvdjmur
+
+- id: ethglobalcannes2025confirmed
+  name: ETHGlobal Cannes
+  date: July 4-6, 2025
+  location: Cannes, France
+  category: Blockchain
+  prize: 275k$
+  website: https://ethglobal.com/events/cannes
+
+- id: ethglobalnewyork2025confirmed
+  name: ETHGlobal New York 2025
+  date: August 15-17, 2025
+  location: New York City, USA
+  category: Blockchain
+  prize: 250k$
+  website: https://ethglobal.com/events/newyork2025
+
+- id: ethglobalnewdelhi2025confirmed
+  name: ETHGlobal New Delhi
+  date: September 26-28, 2025
+  location: New Delhi, India
+  category: Blockchain
+  prize: 175k$
+  website: https://ethglobal.com/events/newdelhi
+
+- id: ethglobalbuenosaires2025confirmed
+  name: ETHGlobal Buenos Aires
+  date: November 21-23, 2025
+  location: Buenos Aires, Argentina
+  category: Blockchain
+  prize: 400k$
+  website: https://ethglobal.com/events/buenosaires
+
+- id: marahackathon2025confirmed
+  name: MARA Hackathon 2025
+  date: June 21, 2025
+  location: San Francisco, USA
+  category: AI
+  prize: "1 Bitcoin"
+  website: https://www.mara.com/hackathon-2025
