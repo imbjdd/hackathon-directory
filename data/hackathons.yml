@@ -237,3 +237,195 @@
   prize: 5k$
   category: AI
   website: https://lu.ma/fmvdjmur
+
+- id: fintechinnovate2025
+  name: FinTech Innovate Hackathon
+  date: March 15-17, 2025
+  location: Singapore
+  category: Fintech
+  prize: 75k$
+  website: https://fintechinnovate.sg/hackathon
+
+- id: healthtechglobal2025
+  name: HealthTech Global Challenge
+  date: April 5-7, 2025
+  location: Boston, USA
+  category: Healthcare
+  prize: 100k$
+  website: https://healthtechglobal.com/challenge2025
+
+- id: gamedevjam2025
+  name: Global Game Dev Jam
+  date: March 22-24, 2025
+  location: Online
+  category: Gaming
+  prize: 25k$
+  website: https://gamedevjam.org/2025
+
+- id: iotconnect2025
+  name: IoT Connect Hackathon
+  date: April 18-20, 2025
+  location: Amsterdam, Netherlands
+  category: IoT
+  prize: 40k$
+  website: https://iotconnect.amsterdam/hack2025
+
+- id: sustainabletech2025
+  name: Sustainable Tech Hackathon
+  date: June 7-9, 2025
+  location: Copenhagen, Denmark
+  category: Sustainability
+  prize: 50k$
+  website: https://sustainabletech.dk/hackathon
+
+- id: cybersecuritydefend2025
+  name: CyberSecurity Defend 2025
+  date: May 12-14, 2025
+  location: Tel Aviv, Israel
+  category: Cybersecurity
+  prize: 80k$
+  website: https://cyberdefend.il/hackathon
+
+- id: edtechinnovation2025
+  name: EdTech Innovation Summit
+  date: August 3-5, 2025
+  location: Toronto, Canada
+  category: Education
+  prize: 35k$
+  website: https://edtechinnovation.ca/hackathon
+
+- id: spacetechorbital2025
+  name: SpaceTech Orbital Challenge
+  date: September 19-21, 2025
+  location: Munich, Germany
+  category: Space Tech
+  prize: 120k$
+  website: https://spacetech.munich/orbital2025
+
+- id: agrihack2025
+  name: AgriHack Global
+  date: May 2-4, 2025
+  location: Nairobi, Kenya
+  category: Agriculture
+  prize: 30k$
+  website: https://agrihack.africa/global2025
+
+- id: mobilefirst2025
+  name: Mobile First Hackathon
+  date: July 25-27, 2025
+  location: Seoul, South Korea
+  category: Mobile
+  prize: 60k$
+  website: https://mobilefirst.kr/hackathon2025
+
+- id: arvrinnovate2025
+  name: AR/VR Innovate Hackathon
+  date: August 29-31, 2025
+  location: San Francisco, USA
+  category: AR/VR
+  prize: 90k$
+  website: https://arvrinnovate.com/hackathon
+
+- id: climatehack2025
+  name: Climate Change Hack
+  date: April 25-27, 2025
+  location: Stockholm, Sweden
+  category: Climate
+  prize: 70k$
+  website: https://climatehack.se/2025
+
+- id: quantumcompute2025
+  name: Quantum Computing Challenge
+  date: October 4-6, 2025
+  location: Zurich, Switzerland
+  category: Quantum
+  prize: 150k$
+  website: https://quantumcompute.ch/challenge
+
+- id: socialgood2025
+  name: Social Good Hackathon
+  date: March 8-10, 2025
+  location: Mexico City, Mexico
+  category: Social Impact
+  prize: 45k$
+  website: https://socialgood.mx/hackathon2025
+
+- id: datavizhack2025
+  name: Data Visualization Hack
+  date: June 27-29, 2025
+  location: Barcelona, Spain
+  category: Data Science
+  prize: 25k$
+  website: https://dataviz.barcelona/hack2025
+
+- id: roboticschallenge2025
+  name: Robotics Challenge 2025
+  date: September 5-7, 2025
+  location: Tokyo, Japan
+  category: Robotics
+  prize: 85k$
+  website: https://robotics.tokyo/challenge2025
+
+- id: blockchainbenelux2025
+  name: Blockchain Benelux
+  date: November 14-16, 2025
+  location: Brussels, Belgium
+  category: Blockchain
+  prize: 65k$
+  website: https://blockchainbenelux.be/hackathon
+
+- id: aiethics2025
+  name: AI Ethics & Fairness Hack
+  date: August 8-10, 2025
+  location: Vienna, Austria
+  category: AI
+  prize: 55k$
+  website: https://aiethics.vienna/hack2025
+
+- id: proptech2025
+  name: PropTech Innovation Days
+  date: May 16-18, 2025
+  location: Dubai, UAE
+  category: PropTech
+  prize: 100k$
+  website: https://proptech.dubai/innovation2025
+
+- id: cyberpunk2025
+  name: CyberPunk Future Hack
+  date: October 31 - November 2, 2025
+  location: Online
+  category: Gaming
+  prize: 15k$
+  website: https://cyberpunkfuture.hack/2025
+
+- id: nftcreators2025
+  name: NFT Creators Hackathon
+  date: December 6-8, 2025
+  location: Miami, USA
+  category: Blockchain
+  prize: 40k$
+  website: https://nftcreators.miami/hack2025
+
+- id: voicetechglobal2025
+  name: Voice Tech Global
+  date: July 18-20, 2025
+  location: Online
+  category: Voice Tech
+  prize: 20k$
+  website: https://voicetech.global/hackathon
+
+- id: insurtech2025
+  name: InsurTech Revolution
+  date: September 12-14, 2025
+  location: London, UK
+  category: Fintech
+  prize: 80k$
+  website: https://insurtech.london/revolution2025
+
+- id: smartcity2025
+  name: Smart City Solutions
+  date: June 21-23, 2025
+  location: Helsinki, Finland
+  category: Smart City
+  prize: 95k$
+  website: https://smartcity.helsinki/solutions2025
