@@ -94,7 +94,7 @@ export default function FilteredHackathons({ hackathons }: { hackathons: Hackath
       </div>
       
       {/* Table */}
-      <div className="bg-white rounded-xl border border-gray-100 overflow-hidden">
+      <div className="bg-white md:px-4 rounded-xl border border-gray-100 overflow-hidden">
         <Table>
           <TableHeader>
             <TableRow className="border-b border-gray-100">

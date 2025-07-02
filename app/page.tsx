@@ -3,7 +3,6 @@ import fs from 'fs';
 import path from 'path';
 import yaml from 'js-yaml';
 import FilteredHackathons from './components/FilteredHackathons';
-import Image from "next/image";
 
 // Définition de la police
 const inter = Inter({ subsets: ["latin"] });
@@ -69,16 +68,7 @@ export default async function Home() {
 
   return (
     <div className={`${inter.className}`}>
-          <div className="relative w-full h-40 overflow-hidden">
-        <Image 
-          src="/bg.webp" 
-          alt="Hackathons Banner" 
-          fill 
-          style={{ objectFit: 'cover' }} 
-          className="brightness-[0.85]"
-        />
-      </div>
-      <div className="max-w-5xl mx-auto px-6 py-12">       
+      <div className="max-w-5xl mx-auto px-6 pb-12">       
         {/* Main content */}
         <main>
           <div className="mb-10">
