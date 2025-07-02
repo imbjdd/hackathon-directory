@@ -110,6 +110,14 @@
   prize: ""
   website: https://www.napuleth.org/
 
+- id: unitedefi2025
+  name: Unite DeFi
+  date: July 25-August 6, 2025
+  location: Online
+  category: Blockchain
+  prize: 525k$
+  website: https://ethglobal.com/events/unite
+
 - id: chilizhackingparis2025
   name: Chiliz Hacking Paris
   date: July 11-13, 2025
