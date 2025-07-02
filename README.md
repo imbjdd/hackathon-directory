@@ -107,8 +107,9 @@ This project is open source and available under the MIT License.
   <tbody>
     <tr>
       <td align="center" valign="top" width="14.28%"><a href="https://bjdd.vercel.app/"><img src="https://avatars.githubusercontent.com/u/56689216?v=4?s=100" width="100px;" alt="Salim"/><br /><sub><b>Salim</b></sub></a><br /><a href="#code-imbjdd" title="Code">💻</a></td>
-      <td align="center" valign="top" width="14.28%"><a href="http://jordanbaumard.fr"><img src="https://avatars.githubusercontent.com/u/34632740?v=4?s=100" width="100px;" alt="Jordan"/><br /><sub><b>Jordan</b></sub></a><br /><a href="#code-jordanbmrd" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://jordanbaumard.fr"><img src="https://avatars.githubusercontent.com/u/34632740?v=4?s=100" width="100px;" alt="Jordan"/><br /><sub><b>Jordan</b></sub></a><br /><a href="#code-jordanbmrd" title="Code">💻</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/carruc"><img src="https://avatars.githubusercontent.com/u/76063704?v=4?s=100" width="100px;" alt="Pietro Carrucciu "/><br /><sub><b>Pietro Carrucciu </b></sub></a><br /><a href="#code-carruc" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="http://andryr.dev"><img src="https://avatars.githubusercontent.com/u/6563044?v=4?s=100" width="100px;" alt="andryr"/><br /><sub><b>andryr</b></sub></a><br /><a href="#code-andryr" title="Code">💻</a></td>
     </tr>
   </tbody>
 </table>
