@@ -230,6 +230,30 @@
   category: AI
   website: https://lu.ma/stockholm-hackathon
 
+- id: berlin-ai-hackathon
+  name: '🇩🇪 {Tech: Europe} Berlin AI Hackathon'
+  date: July 19-20, 2025
+  location: Berlin, Germany
+  prize: ""
+  category: AI
+  website: https://lu.ma/berlin-hackathon
+
+- id: munich-ai-hackathon
+  name: '🇩🇪 {Tech: Europe} Munich Hackathon'
+  date: October 25-26, 2025
+  location: Munich, Germany
+  prize: ""
+  category: AI
+  website: https://lu.ma/tech-munich
+
+- id: ai-search-analytics-hackathon
+  name: 'AI Search Analytics Hackathon'
+  date: July 5, 2025
+  location: Berlin, Germany
+  prize: 10k$
+  category: AI
+  website: https://lu.ma/ai-search-hack
+
 - id: amdaisprint2025paris
   name: AMD AI Sprint
   date: July 5-6, 2025
