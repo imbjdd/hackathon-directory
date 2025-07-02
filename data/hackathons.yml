@@ -269,3 +269,11 @@
   category: AI
   prize: 100k$
   website: https://www.mara.com/hackathon-2025
+
+- id: opencourt2025
+  name: Open Court x AI Tinkerers Summer
+  date: July 17, 2025
+  location: London, UK
+  category: AI
+  prize: 2k$
+  website: https://london.aitinkerers.org/p/open-court-x-ai-tinkerers-summer-mini-hackathon-with-tom-blomfield
