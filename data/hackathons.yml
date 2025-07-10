@@ -231,7 +231,7 @@
   website: https://lu.ma/qpimrbx3?tk=UxT3mH
 
 - id: stockholm-hackathon
-  name: '🇸🇪 {Tech: Europe} Stockholm AI Hackathon'
+  name: '🇸🇪 {Tech: Europe} Stockholm AI'
   date: September 13-14, 2025
   location: Legora AI
   prize: ""
@@ -239,7 +239,7 @@
   website: https://lu.ma/stockholm-hackathon
 
 - id: berlin-ai-hackathon
-  name: '🇩🇪 {Tech: Europe} Berlin AI Hackathon'
+  name: '🇩🇪 {Tech: Europe} Berlin AI'
   date: July 19-20, 2025
   location: Berlin, Germany
   prize: ""
@@ -247,7 +247,7 @@
   website: https://lu.ma/berlin-hackathon
 
 - id: munich-ai-hackathon
-  name: '🇩🇪 {Tech: Europe} Munich Hackathon'
+  name: '🇩🇪 {Tech: Europe} Munich'
   date: October 25-26, 2025
   location: Munich, Germany
   prize: ""
@@ -285,3 +285,19 @@
   category: AI
   prize: 2k$
   website: https://london.aitinkerers.org/p/open-court-x-ai-tinkerers-summer-mini-hackathon-with-tom-blomfield
+
+- id: soz2qohp
+  name: Founder Speedrun Hackathon
+  date: July 21 - August 5, 2025
+  location: Online
+  category: AI
+  prize: ""
+  website: https://lu.ma/soz2qohp
+
+- id: hihackathon
+  name: Hi!ckathon
+  date: November 28 - December 1, 2025
+  location: Paris, France
+  category: AI
+  prize: ""
+  website: https://www.hi-paris.fr/hickathon/
