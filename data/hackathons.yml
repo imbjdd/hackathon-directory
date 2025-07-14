@@ -301,3 +301,11 @@
   category: AI
   prize: ""
   website: https://www.hi-paris.fr/hickathon/
+
+- id: kirohack2025
+  name: Kiro Hackathon
+  date: July 25 - August 15, 2025
+  location: Online
+  category: AI
+  prize: 100k$
+  website: https://kiro.devpost.com/
