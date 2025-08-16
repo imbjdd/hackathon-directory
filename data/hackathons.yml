@@ -309,3 +309,43 @@
   category: AI
   prize: 100k$
   website: https://kiro.devpost.com/
+
+- id: poolmunichhackathon2025
+  name: THE POOL Munich Hackathon 2025
+  date: September 15 - September 19, 2025
+  location: Munich, Deutschland
+  category: AI
+  prize: ""
+  website: https://www.munich-ecosystem.de/event/the-pool-munich-hackathon-2025
+
+- id: gpujanestreet
+  name: GPU Mode Hackathon (Jane Street)
+  date: September 6 - September 6, 2025
+  location: New York, USA
+  category: GPU
+  prize: ""
+  website: https://www.janestreet.com/join-jane-street/programs-and-events/gpu-mode-hackathon/
+
+- id: ethglobalopenagents
+  name: ETHGlobal Open Agents
+  date: September 5 - September 17, 2025
+  location: Online
+  category: Blockchain
+  prize: ""
+  website: https://ethglobal.com/events/openagents
+
+- id: hackthefork
+  name: Hack the Fork
+  date: November 22 - November 23, 2025
+  location: Paris, France
+  category: AI
+  prize: 6k$
+  website: https://hackthefork.com/
+
+- id: minimax2025
+  name: MiniMax
+  date: August 11 - August 25, 2025
+  location: Online
+  category: AI
+  prize: 150k$
+  website: https://minimax-agent-hackathon.space.minimax.io/
