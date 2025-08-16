@@ -25,40 +25,67 @@ export default function FilteredHackathons({ hackathons }: { hackathons: Hackath
   const [filter, setFilter] = useState('upcoming');
   const [shouldFilterByPrize, setShouldFilterByPrize] = useState(false);
   
-  // Helper function to determine if a hackathon is upcoming based on its date
+  // Helper function to determine if a hackathon is upcoming based on its end date
   const isUpcoming = (date: string): boolean => {
-    // Parse the date string - expecting formats like "May 23-25, 2025" or "October 10-31, 2025"
+    // Parse the date string to get the END date - expecting formats like "May 23-25, 2025" or "May 30 - June 30, 2025"
     const dateParts = date.split(',');
     if (dateParts.length < 2) return false;
     
     // Extract the year which should be the last part after trimming
     const year = parseInt(dateParts[dateParts.length - 1].trim());
     
-    // Extract the month from the first part
-    const monthStr = date.split(' ')[0];
+    // Handle date ranges by extracting the end date
+    const dateRange = dateParts[0].trim();
+    let endMonth: number, endDay: number;
     
-    // Convert month name to month number (0-11)
     const months: Record<string, number> = {
       'January': 0, 'February': 1, 'March': 2, 'April': 3, 'May': 4, 'June': 5,
       'July': 6, 'August': 7, 'September': 8, 'October': 9, 'November': 10, 'December': 11
     };
     
-    const month = months[monthStr];
+    // Check if there's a range with different months (e.g., "May 30 - June 30")
+    if (dateRange.includes(' - ') && dateRange.split(' - ').length === 2) {
+      const parts = dateRange.split(' - ');
+      const endPart = parts[1].trim();
+      
+      // If end part has a month name, use it
+      const endMonthMatch = endPart.match(/^([A-Za-z]+)/);
+      if (endMonthMatch) {
+        endMonth = months[endMonthMatch[1]];
+        const endDayMatch = endPart.match(/\d+/);
+        endDay = endDayMatch ? parseInt(endDayMatch[0]) : 1;
+      } else {
+        // End part is just a day, use the start month
+        const startMonth = dateRange.split(' ')[0];
+        endMonth = months[startMonth];
+        endDay = parseInt(endPart);
+      }
+    } else {
+      // Handle simple ranges like "May 23-25" or single dates
+      const parts = dateRange.split(/[-–]/);
+      const startMonth = parts[0].trim().split(' ')[0];
+      endMonth = months[startMonth];
+      
+      if (parts.length > 1) {
+        // Range within same month
+        endDay = parseInt(parts[parts.length - 1].trim());
+      } else {
+        // Single day event
+        const dayMatch = dateRange.match(/\d+/);
+        endDay = dayMatch ? parseInt(dayMatch[0]) : 1;
+      }
+    }
     
-    // Extract the day - take the first number in case of ranges like "23-25"
-    const dayMatch = date.match(/\d+/);
-    const day = dayMatch ? parseInt(dayMatch[0]) : 1;
-    
-    // Create date objects for the hackathon date and current date
-    const hackathonDate = new Date(year, month, day);
+    // Create date objects for the hackathon END date and current date
+    const hackathonEndDate = new Date(year, endMonth, endDay);
     const currentDate = new Date();
     
-    // Set times to beginning of day for fair comparison
-    hackathonDate.setHours(0, 0, 0, 0);
+    // Set times to end of day for hackathon and beginning of day for current date
+    hackathonEndDate.setHours(23, 59, 59, 999);
     currentDate.setHours(0, 0, 0, 0);
     
-    // Return true if hackathon date is in the future
-    return hackathonDate >= currentDate;
+    // Return true if hackathon end date is in the future
+    return hackathonEndDate >= currentDate;
   };
 
   // Filter hackathons based on the filter state and calculated status
