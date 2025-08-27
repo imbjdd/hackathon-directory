@@ -373,3 +373,11 @@
   category: AI
   prize: ""
   website: https://lu.ma/creative-ai-hackathon
+
+- id: amd-developer-challenge-2025
+  name: AMD Developer Challenge 2025
+  date: August 30 - October 20, 2025
+  location: Online
+  category: GPU
+  prize: 150k$
+  website: https://amdchallenge2025.datamonsters.com/
