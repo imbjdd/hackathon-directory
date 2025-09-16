@@ -381,3 +381,11 @@
   category: GPU
   prize: 150k$
   website: https://amdchallenge2025.datamonsters.com/
+
+- id: parishackathontecheurope
+  name: {Tech: Europe} Paris AI Hackathon
+  date: September 27 - September 28, 2025
+  location: Paris, France
+  category: AI
+  prize: 5k$
+  website: https://luma.com/paris-hackathon
