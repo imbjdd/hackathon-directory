@@ -231,7 +231,7 @@
   website: https://lu.ma/qpimrbx3?tk=UxT3mH
 
 - id: stockholm-hackathon
-  name: '🇸🇪 {Tech: Europe} Stockholm AI'
+  name: "🇸🇪 {Tech: Europe} Stockholm AI"
   date: September 13-14, 2025
   location: Legora AI
   prize: ""
@@ -239,7 +239,7 @@
   website: https://lu.ma/stockholm-hackathon
 
 - id: berlin-ai-hackathon
-  name: '🇩🇪 {Tech: Europe} Berlin AI'
+  name: "🇩🇪 {Tech: Europe} Berlin AI"
   date: July 19-20, 2025
   location: Berlin, Germany
   prize: ""
@@ -247,7 +247,7 @@
   website: https://lu.ma/berlin-hackathon
 
 - id: munich-ai-hackathon
-  name: '🇩🇪 {Tech: Europe} Munich'
+  name: "🇩🇪 {Tech: Europe} Munich"
   date: October 25-26, 2025
   location: Munich, Germany
   prize: ""
@@ -255,7 +255,7 @@
   website: https://lu.ma/tech-munich
 
 - id: ai-search-analytics-hackathon
-  name: 'AI Search Analytics Hackathon'
+  name: "AI Search Analytics Hackathon"
   date: July 5, 2025
   location: Berlin, Germany
   prize: 10k$
@@ -383,9 +383,17 @@
   website: https://amdchallenge2025.datamonsters.com/
 
 - id: parishackathontecheurope
-  name: '{Tech: Europe} Paris AI'
+  name: "{Tech: Europe} Paris AI"
   date: September 27 - September 28, 2025
   location: Paris, France
   category: AI
   prize: 5k$
   website: https://luma.com/paris-hackathon
+
+- id: junctionhack2025
+  name: Junction
+  date: November 14 - November 14, 2025
+  location: Espoo, Finland
+  category: AI
+  prize: 50k$
+  website: https://eu.junctionplatform.com/events/junction-2025
