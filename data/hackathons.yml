@@ -397,3 +397,11 @@
   category: AI
   prize: 50k$
   website: https://eu.junctionplatform.com/events/junction-2025
+
+- id: hackathonshift2026
+  name: Shift
+  date: March 27 - March 29, 2026
+  location: Nantes, France
+  category: AI
+  prize: 
+  website: http://shift-hackathon.com/
