@@ -1,5 +1,10 @@
 {
   "permissions": {
-    "defaultMode": "acceptEdits"
+    "allow": [
+      "Bash(bun add:*)",
+      "Bash(bun run:*)",
+      "Bash(docker ps:*)",
+      "Bash(docker exec:*)"
+    ]
   }
 }
