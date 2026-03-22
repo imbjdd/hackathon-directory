@@ -25,6 +25,9 @@ See CONTRIBUTING.md for guidelines, maintainers, and how to submit PRs.
 
 Thanks to all contributors:
 
+<!-- readme: contributors -start -->
+<!-- readme: contributors -end -->
+
 ## License
 
 All rights reserved.
