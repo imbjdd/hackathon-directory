@@ -4,6 +4,9 @@ on:
     - cron: "0 1 * * 0" # every Sunday at 1am
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   contributors:
     runs-on: ubuntu-latest
