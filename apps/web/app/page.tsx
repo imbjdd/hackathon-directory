@@ -123,7 +123,7 @@ export default async function Home() {
                 See more
               </Link>
             </div>
-            <div className={styles.hackathonGrid}>
+            <div className={styles.hackathonList}>
               {items.length === 0 ? (
                 <p className={styles.emptyState}>
                   No upcoming hackathons in {section.label} yet.
@@ -131,29 +131,26 @@ export default async function Home() {
               ) : (
                 items.map((h) => {
                   const coverSrc = getCoverSrc(h.coverUrl);
-                  const card = (
-                    <div className={styles.hackathonCard}>
-                      {coverSrc && (
-                        <HackathonCover
-                          image={coverSrc}
-                          alt={`Cover for ${h.title}`}
-                          className={styles.cardImage}
-                          priority={section.key === "france"}
-                        />
-                      )}
-                      <div className={styles.cardInfo}>
-                        <span className={styles.cardDate}>
-                          {formatEventDateRange(h.startTime, h.endTime)}
-                        </span>
-                        <span className={styles.cardName}>{h.title}</span>
-                        <div className={styles.cardMeta}>
-                          {h.cashPrize != null && h.cashPrize !== -1 && (
-                            <span>{h.cashPrize}$</span>
-                          )}
-                          {h.participantsCount != null && h.participantsCount > 0 && (
-                            <span>{h.participantsCount} Hackers</span>
-                          )}
-                        </div>
+                  const row = (
+                    <div className={styles.hackathonRow}>
+                      <div className={styles.rowLeft}>
+                        {coverSrc && (
+                          <HackathonCover
+                            image={coverSrc}
+                            alt={`Cover for ${h.title}`}
+                            className={styles.rowImage}
+                          />
+                        )}
+                        <span className={styles.rowTitle}>{h.title}</span>
+                      </div>
+                      <span className={styles.rowDate}>
+                        {formatEventDateRange(h.startTime, h.endTime)}
+                      </span>
+                      <div className={styles.rowSeeMore}>
+                        <span>See more</span>
+                        <svg width="16" height="16" viewBox="0 0 16 16" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M5.47 11.47C5.177 11.763 5.177 12.237 5.47 12.53C5.763 12.823 6.237 12.823 6.53 12.53L10.53 8.53C10.821 8.24 10.824 7.77 10.537 7.476L6.634 3.476C6.345 3.18 5.87 3.174 5.574 3.463C5.277 3.752 5.271 4.227 5.561 4.524L8.946 7.994L5.47 11.47Z" fill="currentColor" />
+                        </svg>
                       </div>
                     </div>
                   );
@@ -164,12 +161,12 @@ export default async function Home() {
                       href={h.link}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className={styles.hackathonCardLink}
+                      className={styles.hackathonRowLink}
                     >
-                      {card}
+                      {row}
                     </a>
                   ) : (
-                    <div key={h.id}>{card}</div>
+                    <div key={h.id}>{row}</div>
                   );
                 })
               )}
