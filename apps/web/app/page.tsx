@@ -134,13 +134,6 @@ export default async function Home() {
                   const row = (
                     <div className={styles.hackathonRow}>
                       <div className={styles.rowLeft}>
-                        {coverSrc && (
-                          <HackathonCover
-                            image={coverSrc}
-                            alt={`Cover for ${h.title}`}
-                            className={styles.rowImage}
-                          />
-                        )}
                         <span className={styles.rowTitle}>{h.title}</span>
                       </div>
                       <span className={styles.rowDate}>
